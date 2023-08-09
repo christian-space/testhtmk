@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Styles for intro section */
+.intro {
+  background-image: url('intro-background.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 3rem 0;
+}
+
+/* Styles for buttons */
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+/* More styles can be added for other sections */
+
+/* Styles for footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
